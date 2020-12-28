@@ -74,6 +74,13 @@
         }
     }
 
+    @media only screen and (max-width: 400px) {
+        &__price {
+            margin-left: 0;
+
+        }
+    }
+
     &__btn {
         grid-column: 1 / -1;
     }
